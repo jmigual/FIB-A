@@ -1,10 +1,18 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
+typedef vector<int> VI;
+
 int main()
 {
-    cout << "Hello World!" << endl;
-    return 0;
+    int m;
+
+    while (cin >> m) {
+        // Read input
+        VI V(m);
+        for (int &x : V) cin >> x;
+    }
 }
 
